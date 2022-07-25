@@ -1,4 +1,4 @@
 # myGrpcDemo
 a simple hello world  GRPC demo.
 
-need the gRPC source:  https://github.com/grpc/grpc
+dependency the gRPC project:  https://github.com/grpc/grpc
