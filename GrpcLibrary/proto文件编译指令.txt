@@ -1,0 +1,4 @@
+ThirdParty\grpc_build\bin\protoc.exe -IGrpcLibrary --cpp_out GrpcLibrary  GrpcLibrary\HelloWorld.proto --grpc_out GrpcLibrary --plugin=protoc-gen-grpc=ThirdParty\grpc_build\bin\grpc_cpp_plugin.exe
+
+//把相关grpc和protobuf的exe文件以及helloworld.proto放到同一个文件夹，则可以使用以下指令编译proto
+protoc.exe --cpp_out GrpcLibrary  HelloWorld.proto --grpc_out GrpcLibrary --plugin=protoc-gen-grpc=grpc_cpp_plugin.exe
